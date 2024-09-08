@@ -3,7 +3,36 @@ body {
     color: aliceblue;
 }
 
-*::selection{
+*::selection {
     background-color: burlywood;
     color: white;
+}
+
+a {
+    color: burlywood;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    color: burlywood;
+}
+
+.jumbotron {
+    background-color: #333;
+}
+
+.navbar-brand, .nav-link {
+    color: aliceblue !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: burlywood !important;
+}
+
+footer {
+    background-color: #111;
 }

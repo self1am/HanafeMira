@@ -3,11 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Hanafe Mira's PortFolio</title>
+    <title>Hanafe Mira - Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Hello World!
-    <script src="script.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Hanafe Mira</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center text-light" style="background-color: #333;">
+        <div class="container">
+            <h1 class="display-4">Hanafe Mira</h1>
+            <p class="lead">Software Engineering Intern | Full-Stack | AI/ML | Mobile App Development</p>
+        </div>
+    </header>
+
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>I am an Information Systems Undergraduate and an up-and-coming Software Engineer with multiple successful projects using a variety of technologies. My skills align well with my interests in Full-Stack development, Artificial Intelligence, Machine Learning, and Mobile Application Development.</p>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Virtual World</h3>
+                <p>Graphical interpretation of roads with traffic in bird's eye view.</p>
+                <a href="https://self1am.github.io/VirtualWorld/world" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Self-driving Car Simulation</h3>
+                <p>Simulation of cars using machine learning to maneuver through traffic.</p>
+                <a href="https://self1am.github.io/VirtualWorld" class="btn btn-primary">View Project</a>
+            </div>
+            <div class="col-md-4">
+                <h3>Financial Fraud Detection</h3>
+                <p>Mini Machine Learning project using TensorFlow.js for fraud detection.</p>
+                <a href="https://github.com/self1am/FinancialFraudDetection" class="btn btn-primary">View Project</a>
+            </div>
+            <!-- Add more projects similarly -->
+        </div>
+    </section>
+
+    <section id="skills" class="container my-5">
+        <h2>Skills</h2>
+        <ul>
+            <li>Frontend: HTML, CSS, JavaScript, TypeScript, React.js, Bootstrap</li>
+            <li>Backend: SpringBoot/Java, C/C++, Node.js, Express.js, C#, PHP, Python, R, MongoDB, MySQL, PostgreSQL</li>
+            <li>Mobile App Development: React Native, Cordova, Kotlin, Flutter</li>
+            <li>AI/ML: TensorFlow, PyTorch, Brain.js</li>
+            <li>Platforms: MacOS, Linux, Windows</li>
+            <li>Other: AWS, Git/GitHub</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:miraahanafee@gmail.com">miraahanafee@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/hanafe-mira-822096237" target="_blank">linkedin.com/in/hanafe-mira-822096237</a></p>
+        <p>GitHub: <a href="https://github.com/self1am" target="_blank">github.com/self1am</a></p>
+    </section>
+
+    <footer class="text-center py-3 bg-dark text-light">
+        <p>&copy; 2024 Hanafe Mira. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
