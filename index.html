@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hanafe Mira - Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
         <a class="navbar-brand" href="#">Hanafe Mira</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +32,7 @@
         </div>
     </nav>
 
-    <header class="jumbotron jumbotron-fluid text-center text-light" style="background-color: #333;">
+    <header class="jumbotron jumbotron-fluid text-center text-light" style="background: linear-gradient(135deg, #333, #222);">
         <div class="container">
             <h1 class="display-4">Hanafe Mira</h1>
             <p class="lead">Software Engineering Intern | Full-Stack | AI/ML | Mobile App Development</p>
@@ -46,22 +47,33 @@
     <section id="projects" class="container my-5">
         <h2>Projects</h2>
         <div class="row">
-            <div class="col-md-4">
-                <h3>Virtual World</h3>
-                <p>Graphical interpretation of roads with traffic in bird's eye view.</p>
-                <a href="https://self1am.github.io/VirtualWorld/world" class="btn btn-primary" target="_blank">View Project</a>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Virtual World</h3>
+                        <p class="card-text">Graphical interpretation of roads with traffic in bird's eye view.</p>
+                        <a href="https://self1am.github.io/VirtualWorld/world" class="btn btn-outline-light btn-block" target="_blank">View Project</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>Self-driving Car Simulation</h3>
-                <p>Simulation of cars using machine learning to maneuver through traffic.</p>
-                <a href="https://self1am.github.io/VirtualWorld" class="btn btn-primary">View Project</a>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Self-driving Car Simulation</h3>
+                        <p class="card-text">Simulation of cars using machine learning to maneuver through traffic.</p>
+                        <a href="https://self1am.github.io/VirtualWorld" class="btn btn-outline-light btn-block">View Project</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h3>Financial Fraud Detection</h3>
-                <p>Mini Machine Learning project using TensorFlow.js for fraud detection.</p>
-                <a href="https://github.com/self1am/FinancialFraudDetection" class="btn btn-primary">View Project</a>
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="card-title">Financial Fraud Detection</h3>
+                        <p class="card-text">Mini Machine Learning project using TensorFlow.js for fraud detection.</p>
+                        <a href="https://github.com/self1am/FinancialFraudDetection" class="btn btn-outline-light btn-block">View Project</a>
+                    </div>
+                </div>
             </div>
-            <!-- Add more projects similarly -->
         </div>
     </section>
 
@@ -69,11 +81,9 @@
         <h2>Skills</h2>
         <ul>
             <li>Frontend: HTML, CSS, JavaScript, TypeScript, React.js, Bootstrap</li>
-            <li>Backend: SpringBoot/Java, C/C++, Node.js, Express.js, C#, PHP, Python, R, MongoDB, MySQL, PostgreSQL</li>
-            <li>Mobile App Development: React Native, Cordova, Kotlin, Flutter</li>
+            <li>Backend: SpringBoot, Node.js, Python, PHP, etc.</li>
+            <li>Mobile App: React Native, Kotlin</li>
             <li>AI/ML: TensorFlow, PyTorch, Brain.js</li>
-            <li>Platforms: MacOS, Linux, Windows</li>
-            <li>Other: AWS, Git/GitHub</li>
         </ul>
     </section>
 
