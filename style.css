@@ -2,6 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #000;
     color: aliceblue;
+    font-size: 2rem;
 }
 
 *::selection {
@@ -85,4 +86,85 @@ ul li:before {
     position: absolute;
     left: 0;
     top: 0;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #111;
+    color: aliceblue;
+    padding: 60px 0;
+}
+
+#skills h2 {
+    color: burlywood;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.card {
+    background-color: #222;
+    color: aliceblue;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: burlywood;
+    margin-bottom: 20px;
+}
+
+.card-body ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.card-body ul li {
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.card-body i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: burlywood;
+}
+
+/* Navbar and Icons */
+.navbar {
+    background-color: #333;
+}
+
+.nav-link i {
+    font-size: 4rem; /* Adjust icon size */
+    color: aliceblue !important;
+    transition: color 0.3s ease;
+    margin-right: 10px;
+}
+
+.nav-link:hover i {
+    color: burlywood !important;
+}
+
+/* Tooltip for icons */
+[data-toggle="tooltip"] {
+    position: relative;
+}
+
+[data-toggle="tooltip"]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 0.9rem;
 }

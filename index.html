@@ -6,10 +6,12 @@
     <title>Hanafe Mira - Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- fontawesome stylesheet link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
         <a class="navbar-brand" href="#">Hanafe Mira</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,7 +32,46 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Hanafe Mira</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li> -->
+                <!-- Icons for Contact Section -->
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:miraahanafee@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://linkedin.com/in/hanafe-mira-822096237" target="_blank" data-toggle="tooltip" data-placement="bottom" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/self1am" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>    
 
     <header class="jumbotron jumbotron-fluid text-center text-light" style="background: linear-gradient(135deg, #333, #222);">
         <div class="container">
@@ -78,14 +119,76 @@
     </section>
 
     <section id="skills" class="container my-5">
-        <h2>Skills</h2>
-        <ul>
-            <li>Frontend: HTML, CSS, JavaScript, TypeScript, React.js, Bootstrap</li>
-            <li>Backend: SpringBoot, Node.js, Python, PHP, etc.</li>
-            <li>Mobile App: React Native, Kotlin</li>
-            <li>AI/ML: TensorFlow, PyTorch, Brain.js</li>
-        </ul>
+        <h2 class="text-center">Skills</h2>
+        <div class="row text-center mt-4">
+            <!-- Frontend Skills -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-code"></i> Frontend</h4>
+                        <ul class="list-unstyled">
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>TypeScript, React.js</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Backend Skills -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-server"></i> Backend</h4>
+                        <ul class="list-unstyled">
+                            <li>SpringBoot, Node.js</li>
+                            <li>Python, Java, C++</li>
+                            <li>PHP, MySQL, MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- AI/ML Skills -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-brain"></i> AI/ML</h4>
+                        <ul class="list-unstyled">
+                            <li>TensorFlow, PyTorch</li>
+                            <li>Brain.js, R</li>
+                            <li>Scikit-learn</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <!-- Mobile App Development -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-mobile-alt"></i> Mobile App Development</h4>
+                        <ul class="list-unstyled">
+                            <li>React Native, Cordova</li>
+                            <li>Kotlin, Flutter</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- DevOps -->
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h4 class="card-title"><i class="fas fa-cloud"></i> Platforms/DevOps</h4>
+                        <ul class="list-unstyled">
+                            <li>MacOS, Linux, Windows</li>
+                            <li>AWS, Git/GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
 
     <section id="contact" class="container my-5">
         <h2>Contact</h2>
