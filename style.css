@@ -235,6 +235,7 @@
     margin: 0.5rem;
     border-radius: 10px;
     background: var(--glass-effect);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: all 0.3s ease;
@@ -284,6 +285,7 @@
     left: 50%;
     transform: translateX(-50%) translateY(10px);
     background: var(--glass-effect);
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     color: var(--text-light);
     padding: 0.8rem 1.5rem;
