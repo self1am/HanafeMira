@@ -1,4 +1,3 @@
-/* Modern Portfolio Styles with Advanced Effects */
 :root {
     --neon-primary: #00ffd5;
     --neon-secondary: #ff00ff;
@@ -68,6 +67,7 @@
   .navbar {
     background: rgba(10, 10, 10, 0.8) !important;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:  blur(10px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 1.5rem 2rem;
     transition: all 0.3s ease;
