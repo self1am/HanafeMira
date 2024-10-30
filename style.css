@@ -179,6 +179,9 @@
     position: relative;
     z-index: 2;
     padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   
   .card-title {
